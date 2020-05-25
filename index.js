@@ -43,6 +43,11 @@
       return take;
     };
 
+    // Return value of a private property
+    _myLibraryObject.getPageSize = function () {
+      return settings.pageSize;
+    };
+
     return _myLibraryObject;
   }
 
