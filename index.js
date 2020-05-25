@@ -4,6 +4,13 @@
     // My object library
     const _myLibraryObject = {};
 
+    // This variable is only accessible in the context of the library
+    const settings = {
+      pageSize: 100,
+      skip: 0,
+      take: 100,
+    };
+
     return _myLibraryObject;
   }
 
